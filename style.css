@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
+* , html , body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header img{
+    width: 150px;
+    height: 150px;
+}
+.header{
+    margin-bottom: 3em;
+}
+.content{
+    margin-top: 1em;
+    margin-bottom: 10em;
+    display: flex;
+    flex-direction: row;
+}
+.left-content{
+    margin-right: 3em;
+}
+.title{
+    margin-bottom: 0.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+}
+.description{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 30em;
+    margin-bottom: 1.5em;
+}
+a{
+    text-decoration: none;
+}
+.button-next{
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background: linear-gradient(97.09deg, rgba(15, 10, 253, 0.67) 49.82%, rgba(15, 10, 253, 0) 164.64%);
+    border-radius: 50px;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    width: fit-content;
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+}
+.button-next a{
+    padding-left: 3em;
+    padding-right: 3em;
+    color: white;
+    background-color: transparent;
+}
+.button-next:hover{
+    background: linear-gradient(95.31deg, rgba(3, 0, 163, 0.67) 54.96%, rgba(15, 10, 253, 0) 276.21%);
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+}
+.button-next:active{
+    background-color: #0F0AFD;
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+    transform: translateY(2px);
+}
+.right-content img{
+    width: 450px;
+}
+
+
+/* konten */
+.ppt{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    padding: 3.5em;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(1px 1px 15px #e6e6e6);
+}
+.ppt h3{
+    background-color: transparent;
+}
+.card-ppt{
+    background-color: transparent;
+    font-weight: 500;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-ppt a{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+.card-ppt-1{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: linear-gradient(97.09deg, rgba(15, 10, 253, 0.67) 49.82%, rgba(15, 10, 253, 0) 164.64%);
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+    margin-right: 1.5em;
+}
+.card-ppt-1:hover{
+    background: linear-gradient(95.31deg, rgba(3, 0, 163, 0.67) 54.96%, rgba(15, 10, 253, 0) 276.21%);
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+}
+.card-ppt-1:active{
+    background-color: #0F0AFD;
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+    transform: translateY(2px);
+}
+.card-ppt-2{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: linear-gradient(97.09deg, rgba(15, 10, 253, 0.67) 49.82%, rgba(15, 10, 253, 0) 164.64%);
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+    margin-right: 1.5em;
+}
+.card-ppt-2:hover{
+    background: linear-gradient(95.31deg, rgba(3, 0, 163, 0.67) 54.96%, rgba(15, 10, 253, 0) 276.21%);
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+}
+.card-ppt-2:active{
+    background-color: #0F0AFD;
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+    transform: translateY(2px);
+}
+.card-ppt-3{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: linear-gradient(97.09deg, rgba(15, 10, 253, 0.67) 49.82%, rgba(15, 10, 253, 0) 164.64%);
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+}
+.card-ppt-3:hover{
+    background: linear-gradient(95.31deg, rgba(3, 0, 163, 0.67) 54.96%, rgba(15, 10, 253, 0) 276.21%);
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+}
+.card-ppt-3:active{
+    background-color: #0F0AFD;
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+    transform: translateY(2px);
+}
+
+
+/* kuis */
+.kuis{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-top: 3em;
+    padding: 3.5em;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(1px 1px 15px #e6e6e6);
+}
+.kuis h3{
+    background-color: transparent;
+}
+.card-kuis{
+    background-color: transparent;
+    font-weight: 500;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-kuis a{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+.card-kuis-1{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: linear-gradient(97.09deg, rgba(15, 10, 253, 0.67) 49.82%, rgba(15, 10, 253, 0) 164.64%);
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+    margin-right: 1.5em;
+}
+.card-kuis-1:hover{
+    background: linear-gradient(95.31deg, rgba(3, 0, 163, 0.67) 54.96%, rgba(15, 10, 253, 0) 276.21%);
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+}
+.card-kuis-1:active{
+    background-color: #0F0AFD;
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+    transform: translateY(2px);
+}
+.card-kuis-2{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: linear-gradient(97.09deg, rgba(15, 10, 253, 0.67) 49.82%, rgba(15, 10, 253, 0) 164.64%);
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+    margin-right: 1.5em;
+}
+.card-kuis-2:hover{
+    background: linear-gradient(95.31deg, rgba(3, 0, 163, 0.67) 54.96%, rgba(15, 10, 253, 0) 276.21%);
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+}
+.card-kuis-2:active{
+    background-color: #0F0AFD;
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+    transform: translateY(2px);
+}
+.card-kuis-3{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: linear-gradient(97.09deg, rgba(15, 10, 253, 0.67) 49.82%, rgba(15, 10, 253, 0) 164.64%);
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+}
+.card-kuis-3:hover{
+    background: linear-gradient(95.31deg, rgba(3, 0, 163, 0.67) 54.96%, rgba(15, 10, 253, 0) 276.21%);
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+}
+.card-kuis-3:active{
+    background-color: #0F0AFD;
+    filter: drop-shadow(1px 1px 5px #0F0AFD);
+    transform: translateY(2px);
+}
